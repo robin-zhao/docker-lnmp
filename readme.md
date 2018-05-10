@@ -14,7 +14,7 @@ Docker for LNMP
 # Some commands
 
 ## Build once
-$ docker-composer build
+$ docker-compose build
 ## Start containers
 $ docker-compose up -d
 ## Stop all containers
