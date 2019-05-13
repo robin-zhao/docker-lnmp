@@ -3,7 +3,7 @@ Docker for LNMP
 
 # What's in it
 1. Mysql 5.7
-2. PHP 7.2 with PHP-FPM
+2. PHP 7.3 with PHP-FPM
 3. NGINX latest
 4. PHPMYADMIN
 
@@ -28,6 +28,7 @@ $ docker logs -f [container-id]
 # Others
 
 1. Mysql Host name is "db"
+	Access from Terminal: $ mysql -P 6033 -uroot -h127.0.0.1
 2. PHPMYADMIN http://localhost:8082/
 3. Your project http://project.docker/
 4. Tweak PHP configuration in phpconf.ini
